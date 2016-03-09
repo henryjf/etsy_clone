@@ -1,0 +1,28 @@
+/* CSS Entry Point */
+
+.app{
+	border: 1px solid red;
+}
+header {
+	border: 1px solid blue;
+	padding: 10px;
+}
+
+main {
+	float: left;
+}
+
+.sidebar{
+	border: 1px solid red;
+	float: left;
+	width: 300px;
+}
+ ul{
+	list-style-type: none;
+}
+
+footer {
+	border: 1px solid red;
+	clear: both;
+}
+
