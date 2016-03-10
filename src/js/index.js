@@ -8,3 +8,8 @@ import etsyData from './items';
 // 	var pic = document.Images[0].url_170x135;
 // 	document.getElementbyId()
 // }
+var painting = function items(title, description) {
+// return painting
+};
+
+console.log(painting)

@@ -1,4 +1,4 @@
-/**/(
+export default(
 {
 count: 50100,
 results: [
