@@ -11,9 +11,13 @@ header {
 	background-color: white;
 }
 
-.header ul {
-	display: inline-block;
-	width: 100%;
+#menu {
+	display: inline;
+	border: 1px solid red;
+	float: right;
+	position: relative;
+	bottom: 50px;
+	
 }
 
 // main {
