@@ -30,12 +30,15 @@ function paintings(product) {
 
 	return `
 	<div class="productArray">
-		<div class="product.Images">
-			<img src="${image}" alt="${product.description}">
+		<div class="box">
+			<div class="product.Images">
+				<img src="${image}" alt="${product.description}">
+			</div>
+			<div class="titleOfProduct">${product.title}></div>
+			<div class="price">${product.price}</div>
+			<div class="seller">${product.Shop.shop_name}</div>
+			
 		</div>
-		<div class="price">${product.price}</div>
-		<div class="seller">${product.Shop.shop_name}></div>
-		<div class="titleOfProduct">${product.title}></div>
 	</div>`;
 }
 

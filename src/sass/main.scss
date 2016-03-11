@@ -9,6 +9,7 @@ header {
 	border: 1px solid blue;
 	background-color: white;
 }
+
 .header h3 {
 	color: #ef7b15;
 	font-size: 50px;
@@ -25,8 +26,7 @@ header {
 	float: right;
 	position: relative;
  	bottom: 40px;
-
-	 }
+ }
 
 // main {
 // 	float: left;
@@ -35,9 +35,10 @@ header {
 .sidebar{
 	border: 1px solid red;
 	float: left;
-	width: 300px;
+	// width: 245px;
 	background-color: #f6f5ee;
 }
+
  ul{
 	list-style-type: none;
 	background-color: white;
@@ -49,16 +50,38 @@ header {
 	border: 1px solid #c2c2bc;
 	margin:10px;
 	padding: 5px;
+	width: 245px;
 	background-color: white;
-
 }
+
 .product_image {
 	margin: 5px;
 	border: 1px solid red;
-	padding: 5px;
-
+	// padding: 5px;
 }
 
+.main{
+	// width: calc(100%-245px);
+	border: 1px solid red;
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: flex-start;
+}
+
+.main aside {
+	margin: 0;
+}
+.box {
+	width: 200px;
+	margin: 5px;
+	border: 1px solid red;
+	white-space: nowrap;
+	overflow: hidden;
+    text-overflow: ellipsis;
+}
 
 footer {
 	border: 1px solid red;
