@@ -7,8 +7,13 @@
 
 header {
 	border: 1px solid blue;
-	padding: 10px;
 	background-color: white;
+}
+.header h3 {
+	color: #ef7b15;
+	font-size: 50px;
+	font-weight: normal;
+
 }
 
 #menu {
@@ -42,7 +47,15 @@ header {
 	margin:10px;
 	padding: 5px;
 	background-color: white;
+
 }
+.product_image {
+	margin: 5px;
+	border: 1px solid red;
+	padding: 5px;
+
+}
+
 
 footer {
 	border: 1px solid red;

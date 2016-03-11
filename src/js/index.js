@@ -9,7 +9,8 @@ import etsyData from './items';
 // 	document.getElementbyId()
 // }
 var painting = function items(title, description) {
-// return painting
+ return painting
 };
 
-console.log(painting)
+document.querySelector()
+// console.log(painting)
