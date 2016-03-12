@@ -3,6 +3,8 @@
 .app{
 	border: 1px solid red;
 	background-color: #f6f5ee;
+	display: flex;
+	justify-content: center;
 }
 
 header {
@@ -63,9 +65,10 @@ header {
 .main{
 	// width: calc(100%-245px);
 	border: 1px solid red;
-	margin-top: 20px;
+	width: 750px;
+	margin-top:10px;
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	flex-wrap: wrap;
 	flex-direction: row;
 	align-items: flex-start;
@@ -73,14 +76,21 @@ header {
 
 .main aside {
 	margin: 0;
+
 }
 .box {
-	width: 200px;
+	width: 225px;
 	margin: 5px;
 	border: 1px solid red;
 	white-space: nowrap;
 	overflow: hidden;
     text-overflow: ellipsis;
+}
+
+img {
+	width: 225px;
+	// display: flex;
+	// justify-content: center;
 }
 
 footer {

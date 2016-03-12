@@ -35,8 +35,9 @@ function paintings(product) {
 				<img src="${image}" alt="${product.description}">
 			</div>
 			<div class="titleOfProduct">${product.title}></div>
-			<div class="price">${product.price}</div>
 			<div class="seller">${product.Shop.shop_name}</div>
+			<div class="price">${product.price}</div>
+			
 			
 		</div>
 	</div>`;
