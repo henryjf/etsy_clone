@@ -1,10 +1,11 @@
 /* CSS Entry Point */
 
 .app{
+	font-family: 'Source Sans Pro', sans-serif;
 	border: 1px solid red;
 	background-color: #f6f5ee;
-	display: flex;
-	justify-content: center;
+	// white-space: nowrap;
+	// overflow: hidden;
 }
 
 header {
@@ -22,17 +23,25 @@ header {
 	margin-right: 10px;
 }
 
-#menu {
+.menu1 {
 	display: inline;
 	border: 1px solid red;
-	float: right;
-	position: relative;
- 	bottom: 40px;
+	// float: right;
+	// position: relative;
+ // 	bottom: 40px;
  }
 
 // main {
 // 	float: left;
 //}
+.maincontent {
+	font-family: 'Source Sans Pro', sans-serif;
+	border: 1px solid black;
+	width: 1000px;
+	display: flex;
+
+
+}
 
 .sidebar{
 	border: 1px solid red;
@@ -64,14 +73,16 @@ header {
 
 .main{
 	// width: calc(100%-245px);
-	border: 1px solid red;
-	width: 750px;
+	border: 1px solid green;
+	 // width: 750px;
 	margin-top:10px;
 	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
-	flex-direction: row;
+	justify-content: space around;
+	// flex-wrap: wrap;
+	// flex-direction: row;
+	flex-flow: row wrap;
 	align-items: flex-start;
+	
 }
 
 .main aside {
