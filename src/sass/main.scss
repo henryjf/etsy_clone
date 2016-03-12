@@ -4,31 +4,50 @@
 	font-family: 'Source Sans Pro', sans-serif;
 	border: 1px solid red;
 	background-color: #f6f5ee;
+	// width: 1000px;
 	// white-space: nowrap;
 	// overflow: hidden;
 }
 
-header {
+#header {
 	border: 1px solid blue;
 	background-color: white;
+	width: 1000px;
 }
 
-.header h3 {
+#header h3 {
+	border: 1px solid red;
 	color: #ef7b15;
+	font-family: 'Tinos', serif;
 	font-size: 50px;
 	font-weight: normal;
+	margin-left: 50px;
 }
 
-.header button {
-	margin-right: 10px;
+#header p {
+	// float: right;
+	// border: 1px solid red;
+	// margin-left: 10px;
 }
 
 .menu1 {
 	display: inline;
 	border: 1px solid red;
+	display: flex;
+	justify-content: flex-end;
 	// float: right;
 	// position: relative;
  // 	bottom: 40px;
+ }
+
+ .menu { 
+ 	padding: 10px;
+ 	}
+ .menu2 a {
+ 	margin: 12px;
+ 	// padding: 10px;
+ 	// display: flex;
+ 	// align-content: space-between;
  }
 
 // main {
