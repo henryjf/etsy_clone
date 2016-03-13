@@ -36,7 +36,7 @@ function paintings(product) {
 			</div>
 			<div class="titleOfProduct">${product.title}></div>
 			<div class="seller">${product.Shop.shop_name}</div>
-			<div class="price">${product.price}</div>
+			<div class="price">$${product.price} USD</div>
 			
 			
 		</div>
@@ -45,7 +45,12 @@ function paintings(product) {
 
 productArray.forEach(function(product){
 	$('.main').append(paintings(product));
+
+	//Want to remove 25th item from array
+	// $('.main').filter(<=23);
 });
+
+//when hover over box, display title
 
 
 
