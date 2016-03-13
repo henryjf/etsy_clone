@@ -33,13 +33,13 @@ header {
 }
 
 #header p {
+	width: 75px;
+	// padding:20px;
 	position: relative;
 	bottom: 90px;
 	left: 200px;
-
-	// float: right;
-	// border: 1px solid red;
-	// margin-left: 10px;
+	background-color: #04bfdc;
+	color: white;
 }
 
 .menu1 {
@@ -48,14 +48,16 @@ header {
 	position: relative;
  	bottom: 125px;
  	left: 715px;
- // 	display: flex;
-	//  justify-content: flex-end;
+ 	padding-right: 75px;
+	// display: flex; 
+	// justify-content: flex-end;
 	//  flex-wrap: wrap;
- }
+  }
 
  .menu1 a {
  	color: #6272b2;
  	text-decoration: none;
+ 	margin: 5px;
  }
 
  // #menu { 
@@ -118,47 +120,54 @@ header {
 	color: #6376bf;
 }
 
- .sidebar ul{
-	list-style-type: none;
-	 background-color: white;
-	margin-top: 15px;
-	// margin-left: 15px;
-	 width: 220px;
-	border: 1px solid #c2c2bc;
-}
+//  .sidebar ul{
+// 	list-style-type: none;
+// 	 background-color: white;
+// 	margin-top: 15px;
+// 	// margin-left: 15px;
+// 	 width: 220px;
+// 	border: 1px solid #c2c2bc;
+// }
 // .categories ul{
 // 	border: 1px solid red;
 // 	margin-top: 0px;
 // }
 
-// .categories ul {
-// 	width: 22px;
-// }
+.categories {
+	border: 1px solid #c2c2bc;
+	padding-left: 5px;
+	margin-top: 5px;
+	margin-bottom: 15px;
+	width: 245px;
+	background: white;
+}
+
+.categories aside {
+}
+
+.categories ul {
+	list-style-type: none;
+}
 
 .searchbox {
 	border: 1px solid #c2c2bc;
-	margin: 10px;
-	// padding: 5px;
+	padding-left: 5px;
+	margin-top: 5px;
+	margin-bottom: 15px;
 	width: 245px;
-	background-color: white;
+	background: white;
+}
+.searchbox ul {
+	list-style-type: none;
 }
 
 .searchbox li {
 	color: #6272b2;
 }
 
-.product_image {
-	margin: 5px;
-	border: 1px solid red;
-	// padding: 5px;
-}
-
 .main{
 	width: 730px;
 	margin-top: 35px;
-	// width: calc(100%-245px);
-	border: 1px solid green;
-	 // width: 750px;
 	display: flex;
 	// justify-content: space around;
 	flex-flow: row wrap;
@@ -172,7 +181,8 @@ header {
 .box {
 	width: 220px;
 	margin-right: 8px;
-	border: 1px solid red;
+	margin-bottom: 8px;
+	// border: 1px solid red;
 	font-size: 14px;
 	white-space: nowrap;
 	overflow: hidden;
@@ -210,6 +220,9 @@ img {
 	width: 220px;
 	// display: flex;
 	// justify-content: center;
+}
+.textbox {
+	border: 1px solid #c2c2bc; 
 }
 
 // div.titleOfProduct {

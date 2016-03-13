@@ -34,9 +34,11 @@ function paintings(product) {
 			<div class="product.Images">
 				<img src="${image}" alt="${product.description}">
 			</div>
-			<div class="titleOfProduct">${product.title}></div>
-			<div class="seller">${product.Shop.shop_name}</div>
-			<div class="price">$${product.price} USD</div>
+			<div class="textbox">
+				<div class="titleOfProduct">${product.title}></div>
+				<div class="seller">${product.Shop.shop_name}</div>
+				<div class="price">$${product.price} USD</div>
+			</div>
 			
 			
 		</div>
