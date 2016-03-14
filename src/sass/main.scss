@@ -2,51 +2,55 @@
 
 .app{
 	font-family: 'Source Sans Pro', sans-serif;
-	border: 1px solid red;
 	background-color: #f6f5ee;
-	// width: 1000px;
-	// white-space: nowrap;
-	// overflow: hidden;
 }
-header {
-	height: 125px;
-}
+// header {
+// 	height: 125px;
+// }
 
 #header {
-	border: 1px solid blue;
+	border-bottom: 1px solid #c2c2bc;
 	background-color: white;
-	// width: 1070px;
-	height: 125px;
-
+	height: 90px;
 }
 
 #header h3 {
-	border: 1px solid red;
 	color: #ef7b15;
 	font-family: 'Tinos', serif;
 	font-size: 40px;
 	font-weight: normal;
 	margin-left: 50px;
 	position: relative;
-	bottom: 25px;
+	bottom: 15px;
 	left: 20px;
+}
+#rectangle {
+	width: 200px;
+	height: 35px;
+	border: 1px solid #c2c2bc;
+	position: relative;
+	bottom: 95px;
+	left: 165px;
 }
 
 #header p {
-	width: 75px;
-	// padding:20px;
+	width: 80px;
+	 height: 32px;
+	// padding:4px;
 	position: relative;
-	bottom: 90px;
-	left: 200px;
+	bottom: 148px;
+	left: 365px;
 	background-color: #04bfdc;
 	color: white;
+	text-align: center;
+	padding-top: 5px;
 }
 
 .menu1 {
 	display: inline;
-	border: 1px solid red;
+	// border: 1px solid red;
 	position: relative;
- 	bottom: 125px;
+ 	bottom: 185px;
  	left: 715px;
  	padding-right: 75px;
 	// display: flex; 
@@ -65,9 +69,9 @@ header {
  // 	}
 
  .menu2 {
- 	border: 1px solid red;
+ 	border-top: 1px solid #c2c2bc;
  	position: relative;
- 	bottom: 95px;
+ 	bottom: 155px;
  	left: 60px;
  	}
 
@@ -89,9 +93,9 @@ header {
 //}
 .maincontent {
 	margin-top: 25px;
+	// border: 1px solid #10cbe0; 
 	// margin-left: 50px;
 	font-family: 'Source Sans Pro', sans-serif;
-	border: 1px solid black;
 	width: 1060px;
 	display: flex;
 	justify-content: center;
@@ -99,7 +103,7 @@ header {
 
 .sidebar {
 	font-size: 14px;
-	border: 1px solid red;
+	// border: 1px solid red;
 	float: left;
 	width: 330px;
 	margin-left: 50px
@@ -164,6 +168,23 @@ header {
 .searchbox li {
 	color: #6272b2;
 }
+
+.b1 {background: red;}
+
+.b2 {background: orange;}
+
+.b3 {background: yellow;}
+
+.b4 {background: #0ecd11;}
+
+.b5 {background: #10cbe0;}
+
+.b6 {background: #a210e0;}
+
+.b7 {background: black;}
+
+.b8 {background: white;}
+
 
 .main{
 	width: 730px;
@@ -231,9 +252,10 @@ img {
 
 
 footer {
-	border: 1px solid red;
+	// border: 1px solid red;
 	clear: both;
 	padding: 15px;
+	text-align: center;
 	background-color: white;
 }
 
